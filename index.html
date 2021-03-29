@@ -8,6 +8,7 @@
     <title>Spotify</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"
         integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="style.css">
 </head>
 
@@ -15,46 +16,47 @@
     <main class="clearfix">
         <aside class="f-left f-column d-flex">
             <div class="">
-                <img src="img\logo.svg" alt="" class="mw-150">
+                <img src="img\logo.svg" alt="" class="mw-150 hidden-xs">
+                <img src="img/logo-small.svg" alt="" class="visibile-xs mw-30">
             </div>
             <ul class="">
                 <li class="marg-top-20 marg-b-5 border-left-green">
                     <img src="img/home.svg" alt="" class="mw-30 display-ib ">
-                    <div class="display-ib va-middle text-color-wh invisible "><strong>Home</strong></div>
+                    <div class="display-ib va-middle text-color-wh hidden-xs"><strong>Home</strong></div>
                 </li>
                 <li class="marg-b-5">
                     <img src="img/search.svg" alt="" class="mw-30 display-ib ">
-                    <div class="display-ib va-middle text-color-wh"><strong>Cerca</strong></div>
+                    <div class="display-ib va-middle text-color-wh hidden-xs"><strong>Cerca</strong></div>
                 </li>
                 <li class="">
                     <img src="img/libreria.svg" alt="" class="mw-30 display-ib ">
-                    <div class="display-ib va-middle text-color-wh"><strong>La tua libreria</strong></div>
+                    <div class="display-ib va-middle text-color-wh hidden-xs"><strong>La tua libreria</strong></div>
                 </li>
             </ul>
-            <div>
+            <div class="hidden-xs">
                 <div class="text-color-w marg-top-20 marg-b-10">
                     <strong>PLAYLIST</strong>
                 </div>
-                <div>
-                    <img src="img/download.svg" alt="" class="mw-30 display-ib text-color-wh">
-                    <div class="display-ib va-middle text-color-wh"><strong>Crea Playlist</strong></div>
+                <div class="text-color-wh">
+                    <i class="fa fa-plus-square mw-30" aria-hidden="true"></i>
+                    <div class="display-ib va-middle "><strong>Crea Playlist</strong></div>
                 </div>
             </div>
-            <ul class="f-grow-1">
-                <li class="marg-b-10 marg-top-20 text-color-wh"><strong>Nome Playlist</strong></li>
-                <li class="marg-b-10 text-color-wh"><strong>Nome Playlist</strong></li>
-                <li class="marg-b-10 text-color-wh"><strong>Nome Playlist</strong></li>
-                <li class="marg-b-10 text-color-wh"><strong>Nome Playlist</strong></li>
-                <li class="marg-b-10 text-color-wh"><strong>Nome Playlist</strong></li>
-                <li class="marg-b-10 text-color-wh"><strong>Nome Playlist</strong></li>
-                <li class="marg-b-10 text-color-wh"><strong>Nome Playlist</strong></li>
+            <ul class="f-grow-1 of-auto">
+                <li class="marg-b-10 marg-top-20 text-color-wh  hidden-xs"><strong>Nome Playlist</strong></li>
+                <li class="marg-b-10 text-color-wh hidden-xs"><strong>Nome Playlist</strong></li>
+                <li class="marg-b-10 text-color-wh hidden-xs"><strong>Nome Playlist</strong></li>
+                <li class="marg-b-10 text-color-wh hidden-xs"><strong>Nome Playlist</strong></li>
+                <li class="marg-b-10 text-color-wh hidden-xs"><strong>Nome Playlist</strong></li>
+                <li class="marg-b-10 text-color-wh hidden-xs"><strong>Nome Playlist</strong></li>
+                <li class="marg-b-10 text-color-wh hidden-xs"><strong>Nome Playlist</strong></li>
             </ul>
             <div>
                 <img src="img/download.svg" alt="" class="mw-30 display-ib ">
-                <div class="display-ib va-middle text-color-wh"><strong>Installa app</strong></div>
-                <hr class="text-color-gray">
+                <div class="display-ib va-middle text-color-wh hidden-xs"><strong>Installa app</strong></div>
+                <hr class="text-color-gray hidden-xs">
                 <img src="img/profile.svg" alt="" class="mw-30 display-ib profile">
-                <div class="display-ib va-middle"><strong>John Doe</strong></div>
+                <div class="display-ib va-middle hidden-xs"><strong>John Doe</strong></div>
             </div>
         </aside>
         <div class="f-left wrap-raccolte clearfix">
@@ -65,33 +67,67 @@
             </div>
             <div class="bg-raccolta">
                 <div class="text-ac text-color-lg pad-15">
-                    <div class="display-ib marg-r-10"><strong>IN EVIDENZA</strong></div>
-                    <div class="display-ib marg-r-10"><strong>PODCAST</strong></div>
-                    <div class="display-ib marg-r-10"><strong>CLASSIFICHE</strong></div>
-                    <div class="display-ib marg-r-10"><strong>GENERI E MOOD</strong></div>
-                    <div class="display-ib marg-r-10"><strong>NUOVE USCITE</strong></div>
-                    <div class="display-ib"><strong>SCOPRI</strong></div>
+                    <div class="display-ib marg-r-10 text-color-wh"><strong>IN EVIDENZA</strong></div>
+                    <div class="display-ib marg-r-10 text-color-wh"><strong>PODCAST</strong></div>
+                    <div class="display-ib marg-r-10 text-color-wh"><strong>CLASSIFICHE</strong></div>
+                    <div class="display-ib marg-r-10 text-color-wh"><strong>GENERI E MOOD</strong></div>
+                    <div class="display-ib marg-r-10 text-color-wh"><strong>NUOVE USCITE</strong></div>
+                    <div class="display-ib text-color-wh"><strong>SCOPRI</strong></div>
                 </div>
-                <div class="pad-15">
+                <div class="pad-15 d-flex">
                     <h1>Recently played</h1>
+                    <div class="box">
+
+                    </div>
+                    <div class="box">
+
+                    </div>
+                    <div class="box">
+
+                    </div>
+                    <div class="box">
+
+                    </div>
+                    <div class="box">
+
+                    </div>
+                    <div class="box">
+
+                    </div>
                 </div>
             </div>
         </div>
 
     </main>
-    <footer class="d-flex text-color-w jc-spacebetween pad-10">
+    <footer class="d-flex text-color-w jc-spacebetween pad-10 a-items">
         <div class="f-grow-1">
-            <img src="img/sinister.jpeg" alt="" class="mw-40 display-ib">
-            <div class="display-ib va-middle">
+            <img src="img/sinister.jpeg" alt="" class="mw-40 display-ib marg-r-10">
+            <div class="display-ib va-middle marg-r-15">
                 <div class="display-ib va-middle"><strong>Sinister</strong></div>
                 <div class="text-color-wh text-color-gray">Brano Nome</div>
             </div>
+            <i class="fa fa-heart-o marg-r-10" aria-hidden="true"></i>
+            <i class="fa fa-folder-o" aria-hidden="true"></i>
         </div>
         <div class="f-grow-2 text-ac">
-            centro
+            <div>
+                <i class="fa fa-random marg-r-15" aria-hidden="true"></i>
+                <i class="fa fa-step-backward marg-r-15" aria-hidden="true"></i>
+                <i class="fa fa-play-circle-o marg-r-15" aria-hidden="true"></i>
+                <i class="fa fa-step-forward marg-r-15" aria-hidden="true"></i>
+                <i class="fa fa-repeat" aria-hidden="true"></i>
+            </div>
+            <div>
+                <div class="display-ib marg-r-15">0:25</div>
+                <div class="display-ib marg-r-15">barra</div>
+                <div class="display-ib">4:35</div>
+            </div>
         </div>
         <div class="f-grow-1 text-ar">
-            destra
+            <i class="fa fa-th-list marg-r-15" aria-hidden="true"></i>
+            <i class="fa fa-television marg-r-15" aria-hidden="true"></i>
+            <i class="fa fa-volume-up" aria-hidden="true"></i>
+            barra
         </div>
     </footer>
 

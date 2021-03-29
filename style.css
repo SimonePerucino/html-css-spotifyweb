@@ -115,6 +115,10 @@ aside{
     margin-right: 10px;
 }
 
+.marg-r-15{
+    margin-right: 15px;
+}
+
 .marg-top-20{
     margin-top: 20px;
 }
@@ -193,14 +197,26 @@ main > aside ul{
     color: white;
 }
 
-@media all and (max-width: 767px){
-    .invisible{
-        display: none;
+.of-auto{
+    overflow: auto;
+}
+
+.box{
+    width: 200px;
+    height: 200px;
+    background-color: blue;
+}
+
+@media all and(max-width: 767px) {
+    aside{
+        width: 50px;
     }
 }
 
-@media all and (min-width: 768px){
-    .invisible{
-        display: inline-block;
-    }
+aside hr{
+    border-color: gray;
+}
+
+.a-items{
+    align-items: center;
 }
