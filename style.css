@@ -57,7 +57,7 @@ aside{
 
 .button-upgrade{
     border: 1px solid white;
-    padding: 0px 30px;
+    padding: 0px 25px;
     line-height: 40px;
     border-radius: 30px;
 }
@@ -95,6 +95,10 @@ aside{
     max-width: 150px;
 }
 
+.mw-100x100{
+    max-width: 100%;
+}
+
 .mw-40{
     max-width: 40px;
 }
@@ -109,6 +113,10 @@ aside{
 
 .pad-15{
     padding: 15px;
+}
+
+.pad-left-15{
+    padding-left: 15px;
 }
 
 .marg-r-10{
@@ -202,15 +210,28 @@ main > aside ul{
 }
 
 .box{
-    width: 200px;
-    height: 200px;
-    background-color: blue;
+    width: calc(100% / 7);
+    /* background-color: blue; */
 }
+
+.flex-wrap{
+    flex-wrap: wrap;
+}
+
+/* .jc-spacearound{
+    justify-content: space-around;
+} */
 
 @media all and(max-width: 767px) {
     aside{
         width: 50px;
     }
+
+    /* .wrap-raccolte{
+        width: calc(100% - 50px);  
+        height: 100%;
+    } */
+
 }
 
 aside hr{
