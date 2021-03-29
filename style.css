@@ -62,13 +62,18 @@ aside{
     border-radius: 30px;
 }
 
-.pad-16{
+.pad-8-20{
     padding: 8px 20px;
 }
 
 .text-color-w{
     color: white;
 }
+
+.text-color-wh:hover{
+    color: white;
+}
+
 
 .display-ib{
     display: inline-block;
@@ -78,6 +83,124 @@ aside{
     text-align: center;
 }
 
+.text-ar{
+    text-align: right;
+}
+
 .text-color-lg{
     color: lightgray;
+}
+
+.mw-150{
+    max-width: 150px;
+}
+
+.mw-40{
+    max-width: 40px;
+}
+
+.mw-30{
+    max-width: 30px;
+}
+
+.pad-10{
+    padding: 10px;
+}
+
+.pad-15{
+    padding: 15px;
+}
+
+.marg-r-10{
+    margin-right: 10px;
+}
+
+.marg-top-20{
+    margin-top: 20px;
+}
+
+.marg-tb-5{
+    margin: 5px 0px;
+}
+
+.marg-tb-10{
+    margin: 10px 0px;
+}
+
+.marg-b-10{
+    margin-bottom: 10px;
+}
+
+.marg-b-15{
+    margin-bottom: 15px;
+}
+
+.marg-b-5{
+    margin-bottom: 5px;
+}
+
+main > aside{
+    padding: 15px;
+    color: Gray;
+}
+
+main > aside ul{
+    list-style: none;
+}
+
+.va-middle{
+    vertical-align: middle;
+}
+
+.d-flex{
+    display: flex;
+}
+
+.f-column{
+    flex-direction: column;
+}
+
+.f-grow-0{
+    flex-grow: 0;
+}
+
+.f-grow-1{
+    flex-grow: 1;
+}
+
+.f-grow-2{
+    flex-grow: 2;
+}
+
+.profile{
+    background-color: lightgray;
+    border-radius: 50%;
+}
+
+.text-color-gray{
+    color: gray;
+}
+
+.jc-spacebetween{
+    justify-content: space-between;
+}
+
+.border-left-green{
+    border-left: 1px solid yellowgreen;
+}
+
+.bg-raccolta h1{
+    color: white;
+}
+
+@media all and (max-width: 767px){
+    .invisible{
+        display: none;
+    }
+}
+
+@media all and (min-width: 768px){
+    .invisible{
+        display: inline-block;
+    }
 }
