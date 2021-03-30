@@ -79,6 +79,10 @@ aside{
     display: inline-block;
 }
 
+.display-none{
+    display: none;
+}
+
 .text-ac{
     text-align: center;
 }
@@ -125,6 +129,14 @@ aside{
 
 .marg-r-15{
     margin-right: 15px;
+}
+
+.marg-r-20{
+    margin-right: 20px;
+}
+
+.marg-r-25{
+    margin-right: 25px;
 }
 
 .marg-top-20{
@@ -210,7 +222,7 @@ main > aside ul{
 }
 
 .box{
-    width: calc(100% / 7);
+    width: calc(100% / 6 - 20px);
     /* background-color: blue; */
 }
 
@@ -223,7 +235,7 @@ main > aside ul{
 } */
 
 @media all and (max-width: 767px) {
-    aside{
+    main > aside{
         width: 50px;
     }
 
@@ -232,7 +244,25 @@ main > aside ul{
         height: 100%;
     }
 
+    .box{
+        width: calc(100% / 2 - 20px);
+    }
+
 }
+
+@media all and (min-width: 768px) and (max-width: 991px){
+    .box{
+        width: calc(100% / 2 - 20px);
+    }
+}
+
+@media all and (min-width: 992px) and (max-width: 1199px){
+    .box{
+        width: calc(100% / 4 - 20px);
+    }
+}
+
+
 
 aside hr{
     border-color: gray;
@@ -257,6 +287,31 @@ aside hr{
     transform: translate(-50%,-50%);
 }
 
+.f-size-15{
+    font-size: 15px;
+}
+
+.f-size-20{
+    font-size: 20px;
+}
+
+.f-size-30{
+    font-size: 30px;
+}
+
+.f-size-40{
+    font-size: 40px;
+}
+
 .f-size-50{
     font-size: 50px;
 }
+
+.f-size-65{
+    font-size: 65px;
+}
+
+img:hover .display-none{
+    display: inline-block;
+}
+
